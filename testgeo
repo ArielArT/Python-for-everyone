@@ -1,0 +1,100 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1600",
+               "short_name" : "1600",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Amphitheatre Pkwy",
+               "short_name" : "Amphitheatre Pkwy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mountain View",
+               "short_name" : "Mountain View",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94043",
+               "short_name" : "94043",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4224764,
+               "lng" : -122.0842499
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4238253802915,
+                  "lng" : -122.0829009197085
+               },
+               "southwest" : {
+                  "lat" : 37.4211274197085,
+                  "lng" : -122.0855988802915
+               }
+            }
+         },
+         "place_id" : "ChIJ2eUgeAK6j4ARbn5u_wAGqWA",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+C:\Users\tompo\PycharmProjects\PythonNauka\venv\Scripts\python.exe C:/Users/tompo/Documents/Programowanie/Python/Autograde13_3.py
+Enter location: South Federal University
+lat 47.224719 lng 39.728334
+{
+    'results': [
+    {'address_components':
+    [
+    {'long_name': '105/42', 'short_name': '105/42', 'types': ['street_number']},
+    {'long_name': "Bol'shaya Sadovaya Ulitsa", 'short_name': "Bol'shaya Sadovaya Ulitsa", 'types': ['route']},
+    {'long_name': 'Rostov-on-Don', 'short_name': 'Rostov-on-Don', 'types': ['locality', 'political']},
+    {'long_name': 'Rostov Oblast', 'short_name': 'Rostov Oblast', 'types': ['administrative_area_level_1', 'political']},
+    {'long_name': 'Russia', 'short_name': 'RU', 'types': ['country', 'political']},
+    {'long_name': '344006', 'short_name': '344006', 'types': ['postal_code']}
+    ]
+    ,
+    'formatted_address': "ул, Bol'shaya Sadovaya Ulitsa, 105/42, Rostov-on-Don, Rostov Oblast, Russia, 344006",
+    'geometry':
+    {'location': {'lat': 47.224719, 'lng': 39.728334},
+    'location_type': 'ROOFTOP',
+     'viewport': {'northeast': {'lat': 47.2260679802915, 'lng': 39.7296829802915},
+     'southwest': {'lat': 47.2233700197085, 'lng': 39.7269850197085}}}
+     ,
+     'place_id': 'ChIJNeHD4p-540AR2Q0_ZjwmKJ8',
+      'plus_code': {'compound_code': '6PFH+V8 Rostov-on-Don, Rostov Oblast, Russia', 'global_code': '8GVX6PFH+V8'},
+       'types': ['establishment', 'point_of_interest', 'university']}], 'status': 'OK'}
+Enter location:
+
+{
+'results': [{'address_components':  [{'long_name': 'Solec Kujawski',  'short_name': 'Solec Kujawski', 'types': ['locality', 'political']}, {'long_name': 'bydgoski', 'short_name': 'bydgoski', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'Kuyavian-Pomeranian Voivodeship', 'short_name': 'Kuyavian-Pomeranian Voivodeship', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'Poland', 'short_name': 'PL', 'types': ['country', 'political']}, {'long_name': '86', 'short_name': '86', 'types': ['postal_code', 'postal_code_prefix']}], 'formatted_address': 'Solec Kujawski, Poland', 'geometry': {'bounds': {'northeast': {'lat': 53.0951974, 'lng': 18.2817974}, 'southwest': {'lat': 53.0554666, 'lng': 18.1888961}}, 'location': {'lat': 53.08325310000001, 'lng': 18.2258317}, 'location_type': 'APPROXIMATE', 'viewport': {'northeast': {'lat': 53.0951974, 'lng': 18.2817974}, 'southwest': {'lat': 53.0554666, 'lng': 18.1888961}}}, 'place_id': 'ChIJ9fsIQuM-A0cRNjuH7GQEkXM', 'types': ['locality', 'political']}], 'status': 'OK'}
+
+{'results': [{'address_components': [{'long_name': 'Atlantic Ocean', 'short_name' : 'Atlantic Ocean', 'types': ['establishment', 'natural_feature']}], 'formatted_address': 'Atlantic Ocean', 'geometry': {'bounds': {'northeast': {'lat': 68.1962901, 'lng': 19.9970779}, 'southwest': {'lat': -75.9725902, 'lng': -82.9931606}}, 'location': {'lat': -14.5994134, 'lng': -28.6731465}, 'location_type': 'APPROXIMATE', 'viewport': {'northeast': {'lat': 68.1962901, 'lng': 19.9970779}, 'southwest': {'lat': -75.9725902, 'lng': -82.9931606}}}, 'place_id': 'ChIJ_7hu48qBWgYRT1MQ81ciNKY', 'types': ['establishment', 'natural_feature']}], 'status': 'OK'}
+
+{'results': [{'address_components': [{'long_name': 'Berlin', 'short_name': 'Berlin', 'types': ['locality', 'political']}, {'long_name': 'Berlin', 'short_name': 'Berlin', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'Germany', 'short_name': 'DE', 'types': ['country', 'political']}], 'formatted_address': 'Berlin, Germany', 'geometry': {'bounds': {'northeast': {'lat': 52.6754542, 'lng': 13.7611175}, 'southwest': {'lat': 52.338234, 'lng': 13.088346}}, 'location': {'lat': 52.52000659999999, 'lng': 13.404954}, 'location_type': 'APPROXIMATE', 'viewport': {'northeast': {'lat': 52.6754542, 'lng': 13.7611175}, 'southwest': {'lat': 52.338234, 'lng': 13.088346}}}, 'place_id': 'ChIJAVkDPzdOqEcRcDteW0YgIQQ', 'types': ['locality', 'political']}], 'status': 'OK'}
+
+{'results': [{'address_components': [{'long_name': 'Hollywood', 'short_name': 'Hollywood', 'types': ['neighborhood', 'political']}, {'long_name': 'Los Angeles', 'short_name': 'Los Angeles', 'types': ['locality', 'political']}, {'long_name': 'Los Angeles County', 'short_name': 'Los Angeles County', 'types': ['administrative_area_level_2', 'political']}, {'long_name': 'California', 'short_name': 'CA', 'types': ['administrative_area_level_1', 'political']}, {'long_name': 'United States', 'short_name': 'US', 'types': ['country', 'political']}], 'formatted_address': 'Hollywood, Los Angeles, CA, USA', 'geometry': {'bounds': {'northeast': {'lat': 34.111236, 'lng': -118.2840872}, 'southwest': {'lat': 34.0762656, 'lng': -118.368869}}, 'location': {'lat': 34.0928092, 'lng': -118.3286614}, 'location_type': 'APPROXIMATE', 'viewport': {'northeast': {'lat': 34.111236, 'lng': -118.2840872}, 'southwest': {'lat': 34.0762656, 'lng': -118.368869}}}, 'partial_match': True, 'place_id': 'ChIJv3lSBAe_woAR5Pq9l2eaevY', 'types': ['neighborhood', 'political']}], 'status': 'OK'}
